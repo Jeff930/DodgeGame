@@ -14,7 +14,7 @@ _data = {
 "points": PoolVector2Array( 0, 0, 0, 0, -1.5, 1.7359, 0, 0, 0, 0, 479.162, 1.7359, 0, 0, 0, 0, 480.162, 699.927, 0, 0, 0, 0, -0.83754, 699.927, 0, 0, 0, 0, -1.5, 1.7359 )
 }
 
-[node name="Main" type="Node" index="0"]
+[node name="Main" type="Node"]
 
 script = ExtResource( 1 )
 Mob = ExtResource( 2 )
@@ -37,7 +37,7 @@ color = Color( 0.209885, 0.511719, 0.469273, 1 )
 
 [node name="Player" parent="." index="1" instance=ExtResource( 3 )]
 
-_sections_unfolded = [ "Collision", "Pickable" ]
+_sections_unfolded = [ "Collision", "Material", "Pickable" ]
 
 [node name="MobTimer" type="Timer" parent="." index="2"]
 
